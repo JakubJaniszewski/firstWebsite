@@ -60,7 +60,6 @@ a.sociallink {
 .navbar {
     width: 100%;
     height: 50px;
-    justify-content: center;
     background-color: #3095d3;
 }
 
@@ -71,7 +70,7 @@ a.sociallink {
 .navbar ul li {
     display:inline-block;
     padding: 13px;
-    border-right: dashed 2px;
+    border-right: solid 2px;
 }
 
 #maincontent {
@@ -96,9 +95,8 @@ a.sociallink {
     border-radius: 3%;
 }
 
-#copyright {
-    width: 100%;
-    text-align: center;
+.lorem {
+    font-style: italic;
 }
 
 #socials {
@@ -161,4 +159,11 @@ a.sociallink {
     margin-bottom: 0px;
     width: 100%;
     border-top: solid 2px white;
+    text-align: center;
+}
+
+#copyright a:hover {
+    color: #ffffff;
+    padding: 4px;
+    border-bottom: solid 1px white;
 }
