@@ -15,7 +15,7 @@ img.myphotos {
     border-radius: 1%;
 }
 
-a.redirect {
+a.redirect, a.logo {
     color: #ffffff;
     text-decoration: none;
 }
@@ -52,9 +52,8 @@ a.sociallink {
 #timer {
     float: right;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin: 10px;
     text-align: right;
 }
 
@@ -75,9 +74,13 @@ a.sociallink {
     border-right: dashed 2px;
 }
 
+#maincontent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 #photos {
     margin: 20px;
-    float: left;
     border: solid 4px;
     border-color: #666666;
     border-radius: 2%;
@@ -86,10 +89,9 @@ a.sociallink {
 #content {
     margin: 20px;
     padding: 15px;
-    width: 500px;
+    width: 530px;
     height: auto;
 
-    float: left;
     background-color: #666666;
     border-radius: 3%;
 }
@@ -103,7 +105,7 @@ a.sociallink {
     width: 70%;
     font-size: 100px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
