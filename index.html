@@ -6,56 +6,56 @@
     <meta name="description" content="My first website project, done with HTML, CSS and Javascript" />
     <meta name="keywords" content="website, HTML, CSS, JavaScript, JS" />
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="container">
 
-        <header>
-            <div id="logo">
-                <div id="name"><a href="index.html">Jakub Janiszewski</a></div>
-                <div id="timer">21:37:00</div>
-                <div style="clear: both;"></div>
-            </div>
-
-            <nav>
-                <div id="navigation">
-                    <div class="option">
-                        <a href="index.html">Home</a>
-                    </div>
-                    <div class="option">
-                        <a href="about.html">About Me</a>
-                    </div>
-                    <div class="option">
-                        <a href="contact.html">Contact</a>
-                    </div>
+        <div id="header">
+            <header>
+                <div id="logo">
+                    <div id="name"><a href="index.html" class="redirect">Jakub Janiszewski</a></div>
+                    <div id="timer">21:37:00</div>
+                    <div style="clear: both;"></div>
                 </div>
-            </nav>
-        </header>
 
-        <div id="photos"><img src="images/10409644_695263660567796_8690324584917956044_n.jpg" /></div>
+                <nav class="navbar">
+                    <div>
+                        <ul>
+                            <li><a href="index.html" class="redirect">Home</a></li>
+                            <li><a href="#" class="redirect">About me </a></li>
+                            <li><a href="#" class="redirect">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
 
-        <div id="content">
-            <h1>Welcome!</h1>
-            <p>Welcome on my first website, where I can show you my skills in HTML, CSS and also JavaScript!
-                This is my first front-end project, I hope to get great feedback from you!</p>
-            <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquam justo. Vestibulum faucibus nulla in tincidunt tristique. Mauris aliquet, tellus nec mattis vehicula, est leo dapibus tortor, vel lobortis dolor odio nec libero. Etiam hendrerit nisl id vestibulum semper. Donec semper neque nec leo tempor, non consectetur dolor aliquet. Ut egestas elit non massa mollis gravida. Morbi vestibulum luctus magna scelerisque hendrerit. Integer semper feugiat dui ac laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nulla urna, facilisis nec varius id, consequat nec elit. Pellentesque eu nibh fringilla, molestie nulla vitae, suscipit enim. Morbi quis vehicula lacus. Nullam laoreet ex quis pharetra luctus. Nullam vulputate a justo vitae varius. In mi ante, posuere eget est id, cursus sodales risus.</p>
+        <div id="maincontent">
+            <div id="photos"><img src="images/10409644_695263660567796_8690324584917956044_n.jpg" class = "myphotos" /></div>
+
+            <div id="content">
+                <h1>Welcome!</h1>
+                <p>Welcome on my first website, where I can show you my skills in HTML, CSS and also JavaScript!
+                    This is my first front-end project, I hope to get great feedback from you!</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquam justo. Vestibulum faucibus nulla in tincidunt tristique. Mauris aliquet, tellus nec mattis vehicula, est leo dapibus tortor, vel lobortis dolor odio nec libero. Etiam hendrerit nisl id vestibulum semper. Donec semper neque nec leo tempor, non consectetur dolor aliquet. Ut egestas elit non massa mollis gravida. Morbi vestibulum luctus magna scelerisque hendrerit. Integer semper feugiat dui ac laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nulla urna, facilisis nec varius id, consequat nec elit. Pellentesque eu nibh fringilla, molestie nulla vitae, suscipit enim. Morbi quis vehicula lacus. Nullam laoreet ex quis pharetra luctus. Nullam vulputate a justo vitae varius. In mi ante, posuere eget est id, cursus sodales risus.</p>
+            </div>
+            <div style="clear: both;"></div>
         </div>
 
         <div id="socials">
-            <div id="yt"><a href="https://www.youtube.com/" class="sociallink" target="_blank"><i class="demo-icon icon-youtube"></i></a></div>
-            <div id="fb"><a href="https://www.facebook.com/" class="sociallink" target="_blank"><i class="demo-icon icon-facebook-squared"></i></a></div>
-            <div id="gplus"><a href="https://plus.google.com/" class="sociallink" target="_blank"><i class="demo-icon icon-gplus-squared"></i></a></div>
-            <div id="tw"><a href="https://www.twitter.com/" class="sociallink" target="_blank"><i class="demo-icon icon-twitter"></i></a></div>
+            <div id="fb"><a href="https://www.facebook.com/jakub.janiszewski.925" class="sociallink" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></div>
+            <div id="github"><a href="https://github.com/JakubJaniszewski" class="sociallink" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+            <div id="linkedin"><a href="https://pl.linkedin.com/" class="sociallink" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            <div id="youtube"><a href="https://www.youtube.com/" class="sociallink" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
         </div>
 
-        <div id="footer">
-            <footer>
-                <h4>2017 © Jakub Janiszewski. Contact me!</h4>
-            </footer>
-        </div>
+        <footer id="copyright">
+            <h4><a href="contact.html" class="redirect">2017 © Jakub Janiszewski. Contact me!</a></h4>
+        </footer>
 
     </div>
 </body>
