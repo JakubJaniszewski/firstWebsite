@@ -38,10 +38,17 @@
             <div id="photos"><img src="images/10409644_695263660567796_8690324584917956044_n.jpg" class = "myphotos" /></div>
 
             <div id="content">
-                <h1>Welcome!</h1>
-                <p>Welcome on my first website, where I can show you my skills in HTML, CSS and also JavaScript!
-                    This is my first front-end project, I hope to get great feedback from you! You cant contact me via <a href="contact.html" class="redirect">contact</a> tab.</p>
-                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquam justo. Vestibulum faucibus nulla in tincidunt tristique. Mauris aliquet, tellus nec mattis vehicula, est leo dapibus tortor, vel lobortis dolor odio nec libero. Etiam hendrerit nisl id vestibulum semper. Donec semper neque nec leo tempor, non consectetur dolor aliquet. Ut egestas elit non massa mollis gravida. Morbi vestibulum luctus magna scelerisque hendrerit. Integer semper feugiat dui ac laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nulla urna.</p>
+                <form id="contactform">
+                    <label for="contactname">Name</label>
+                    <input type="textbox" class="input" id="contactname" value="Enter your name" onfocus="if (this.value=='Enter your name') this.value='';"/>
+
+                    <label for="email">Email</label>
+                    <input type="textbox" class="input" id="email" value="Give your email" onfocus="if (this.value=='Give your email') this.value='';"/>
+
+                    <label for="message">Enter your message</label>
+                    <textarea id="message" class="input"></textarea>
+                    <button type="button" id="sendbutton" disabled>SEND</button>
+                </form>
             </div>
             <div style="clear: both;"></div>
         </div>

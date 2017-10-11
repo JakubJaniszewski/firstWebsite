@@ -3,16 +3,16 @@ body {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-}
-
-p {
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 img.myphotos {
-    max-width: 530px;
+    max-width: 460px;
     height: auto;
-    border-radius: 1%;
+    border: solid 4px;
+    border-color: #666666;
+    border-radius: 2%;
 }
 
 a.redirect, a.logo {
@@ -30,6 +30,7 @@ a.sociallink {
 }
 
 #container {
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -78,21 +79,20 @@ a.sociallink {
     display: flex;
     justify-content: space-around;
 }
+
 #photos {
     margin: 20px;
-    border: solid 4px;
-    border-color: #666666;
-    border-radius: 2%;
 }
 
 #content {
     margin: 20px;
     padding: 15px;
-    width: 530px;
-    height: auto;
 
     background-color: #666666;
     border-radius: 3%;
+
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .lorem {
@@ -112,10 +112,6 @@ a.sociallink {
     width: 105px;
     height: 142px;
     padding: 15px;
-}
-
-.sociallink:hover {
-    cursor: pointer;
 }
 
 #fb {
@@ -166,4 +162,21 @@ a.sociallink {
     color: #ffffff;
     padding: 4px;
     border-bottom: solid 1px white;
+}
+
+#contactform {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.input {
+    width: 100%;
+    margin: 15px;
+    background-color: rgba(48, 149, 211, 1);
+    color: #ffffff;
+}
+
+#message {
+    height: 300px;
 }
