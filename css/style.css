@@ -180,3 +180,8 @@ a.sociallink {
 #message {
     height: 300px;
 }
+
+#skillIcons {
+    margin-left: 60px;
+    font-size: 110px;
+}
